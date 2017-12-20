@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+  color: #111;
+  background: #edeff0;
+}
+
+#container {
+  max-width: 960px;
+  background: #fff;
+  margin: 0 auto;
+  height: 100%; /* new line */
+}
+
+p {
+  max-width: 350px;
+  margin: 35px auto 0;
+  line-height: 2em;
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+  color: #39add1;
+  font-weight: 700;
+}
+
+a:hover {
+  color: #111;
+}
+
+header {
+  padding-top: 10px;
+}
+
+header nav {
+  padding-bottom: 50px;
+  text-align: left;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+main {
+  padding-top: 50px;
+}
+
+main h2 {
+  font-size: 28px;
+}
+
+footer {
+  width: 100%;
+  margin-top: 100px;
+  padding-bottom: 30px;
+  color: #ba8058;
+}
+
+li{
+  list-style: none;
+}
+
+.ulnav{
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 2em;
+}
+.linav{
+  padding-left: 2.5em;
+  font-size: larger;
+  font-weight: bold;
+  color: #39ADD1;
+}
+.navlogo{
+  transform: scale(1.8);
+  padding-right: .4em;
+}
+.linav a:hover{
+  color:#cc4400;
+}
+.linav:hover .navlogo{
+  fill:#cc4400;
+}
+
+.ulnav li{
+  transition: transform .4s cubic-bezier(.3,-1.01,.39,2.91);
+}
+.ulnav li:hover{
+  transform: scale(1.15);
+}
+.letters{
+  fill:#EAAA7F;
+}
+.paws{
+
+  fill:#F4C6A6;
+}
+
+.logo .paw1{
+  
+  transition: transform .5s cubic-bezier(.3,-1.01,.39,2.91);
+transition-delay: .2s;
+}
+.logo .paw2{
+   transition: transform .5s cubic-bezier(.3,-1.01,.39,2.91);
+transition-delay: .3s;
+}
+.logo .paw3{
+   transition: transform .5s cubic-bezier(.3,-1.01,.39,2.91);
+transition-delay: .4s;
+}
+/*.logo .paws{
+
+   transition: transform 2s cubic-bezier(.3,-1.01,.39,2.91);
+}*/
+.logo:hover .paw1,
+.logo:hover .paw2,
+.logo:hover .paw3{
+  transform: translateY(11px);
+
+}
+
+.corgi_ul{
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: center;
+}
+.first{
+  color:#b32400;
+}
+.second{
+  color:#b36b00;
+}
+.third{
+  color:#ffff80;
+}
+.fourth{
+  color:#993333;
+}
+.first:hover .brows{
+  transform: rotate(10deg);
+}
