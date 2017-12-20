@@ -5,7 +5,7 @@ body {
   font-family: 'Roboto Slab', serif;
   font-weight: 300;
   color: #111;
-  background: #edeff0;
+  background: #edeff0 url("svgs/background.svg");
 }
 
 #container {
@@ -144,4 +144,16 @@ transition-delay: .4s;
 }
 .first:hover .brows{
   transform: rotate(10deg);
+}
+.letters{
+    display: none;
+  }
+
+@media (min-width: 425px) {
+  .letters {
+    display: inline-block;
+  }
+  .pawTitle {
+    display: none;
+  }
 }
